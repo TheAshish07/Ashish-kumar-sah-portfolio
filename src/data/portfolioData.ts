@@ -1,13 +1,13 @@
 import { Code2, Database, Globe, Shield, Lightbulb } from "lucide-react";
 
 export const personalInfo = {
-  name: "Alex Johnson",
+  name: "Ashish Kumar Sah",
   title: "Computer Engineer",
   subtitle: "Web Developer & Problem Solver",
   summary: "Passionate Computer Engineering graduate with a strong foundation in software development, web technologies, and problem-solving. Eager to contribute to innovative projects and grow as a full-stack developer.",
-  email: "alex.johnson@email.com",
-  github: "https://github.com/alexjohnson",
-  linkedin: "https://linkedin.com/in/alexjohnson",
+  email: "ashish.sah@email.com",
+  github: "https://github.com/ashishkumarsah",
+  linkedin: "https://linkedin.com/in/ashishkumarsah",
   resumeLink: "/resume.pdf",
 };
 
