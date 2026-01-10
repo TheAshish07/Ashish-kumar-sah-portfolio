@@ -1,4 +1,4 @@
-import { Code2, Database, Globe, Shield, Lightbulb } from "lucide-react";
+import { Shield, Terminal, Globe, Code2, Lightbulb, Users } from "lucide-react";
 
 export const personalInfo = {
   name: "Ashish Kumar Sah",
@@ -14,33 +14,39 @@ export const personalInfo = {
 export const skills = [
   {
     id: 1,
-    name: "Web Development",
-    icon: Globe,
-    description: "Building responsive, accessible websites using HTML, CSS, JavaScript, and modern frameworks.",
+    name: "Cybersecurity",
+    icon: Shield,
+    description: "Understanding security fundamentals, ethical hacking, vulnerability assessment, and secure coding practices.",
   },
   {
     id: 2,
-    name: "React.js",
-    icon: Code2,
-    description: "Creating dynamic user interfaces with React, hooks, state management, and component architecture.",
+    name: "Linux",
+    icon: Terminal,
+    description: "Proficient in Linux command line, shell scripting, system administration, and server management.",
   },
   {
     id: 3,
-    name: "Backend & Database",
-    icon: Database,
-    description: "Working with Node.js, Express, MongoDB, and SQL databases for full-stack applications.",
+    name: "Web Development",
+    icon: Globe,
+    description: "Building responsive, accessible websites using HTML, CSS, JavaScript, React, and modern frameworks.",
   },
   {
     id: 4,
-    name: "Cybersecurity",
-    icon: Shield,
-    description: "Understanding security fundamentals, secure coding practices, and vulnerability assessment.",
+    name: "Python",
+    icon: Code2,
+    description: "Developing scripts, automation tools, and applications using Python for various use cases.",
   },
   {
     id: 5,
     name: "Problem Solving",
     icon: Lightbulb,
-    description: "Strong analytical skills with experience in data structures, algorithms, and competitive programming.",
+    description: "Strong analytical skills with experience in data structures, algorithms, and logical thinking.",
+  },
+  {
+    id: 6,
+    name: "Team Management",
+    icon: Users,
+    description: "Effective collaboration, leadership, communication, and coordinating team efforts to achieve goals.",
   },
 ];
 
