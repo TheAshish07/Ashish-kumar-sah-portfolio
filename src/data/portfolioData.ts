@@ -4,7 +4,7 @@ export const personalInfo = {
   name: "Ashish Kumar Sah",
   title: "Computer Engineer",
   subtitle: "Cybersecurity Enthusiast & Web Developer",
-  summary: "Passionate Computer Engineering graduate with a strong foundation in software development, web technologies, and problem-solving. Eager to contribute to innovative projects and grow as a full-stack developer.",
+  summary: "Final year Computer Engineering student with a passion for cybersecurity and web development. Eager to apply my skills in building secure, responsive web applications while exploring vulnerabilities and ethical hacking. Looking for opportunities to kickstart my career as a fresher in the tech industry.",
   email: "ashsah.cs.eng@gmail.com",
   github: "https://github.com/TheAshish07",
   linkedin: "https://www.linkedin.com/in/ashish-sah-413b82265/",
