@@ -5,9 +5,9 @@ export const personalInfo = {
   title: "Computer Engineer",
   subtitle: "Web Developer & Problem Solver",
   summary: "Passionate Computer Engineering graduate with a strong foundation in software development, web technologies, and problem-solving. Eager to contribute to innovative projects and grow as a full-stack developer.",
-  email: "ashish.sah@email.com",
-  github: "https://github.com/ashishkumarsah",
-  linkedin: "https://linkedin.com/in/ashishkumarsah",
+  email: "ashsah.cs.eng@gmail.com",
+  github: "https://github.com/TheAshish07",
+  linkedin: "https://www.linkedin.com/in/ashish-sah-413b82265/",
   resumeLink: "/resume.pdf",
 };
 
