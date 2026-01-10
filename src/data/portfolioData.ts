@@ -98,7 +98,7 @@ export const certifications = [
   {
     id: 1,
     title: "Ethical Hacking Program",
-    organization: "RK University",
+    organization: "Cyber Protectors",
     year: "2025",
     credentialLink: "https://www.linkedin.com/posts/ashish-sah-413b82265_ethical-hacking-certificate-activity-7406693557803294720-cw2F/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
   },
@@ -119,15 +119,15 @@ export const certifications = [
   {
     id: 4,
     title: "Workshop on Bug Bounty and Cyber Crime Investigation",
-    organization: "RK University",
+    organization: "Indian Cyber Club Technologies",
     year: "2024",
     credentialLink: "https://www.linkedin.com/posts/ashish-sah-413b82265_cybersecurity-bugbounty-ethicalhacking-activity-7292162247429091328-UaMw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
   },
   {
     id: 5,
     title: "Diploma in Computer Application",
-    organization: "Computer Training Institute",
-    year: "2021",
+    organization: "ITech Univ",
+    year: "2020",
     credentialLink: null,
   },
 ];
