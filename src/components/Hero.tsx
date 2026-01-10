@@ -57,10 +57,10 @@ const Hero = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.5, delay: 0.2 }}
-            className="font-display text-xl sm:text-2xl md:text-3xl font-medium mb-6"
+            className="font-display font-medium mb-6"
           >
-            <span className="gradient-text block">{personalInfo.title}</span>
-            <span className="text-muted-foreground block">{personalInfo.subtitle}</span>
+            <span className="gradient-text block text-2xl sm:text-3xl md:text-4xl">{personalInfo.title}</span>
+            <span className="text-muted-foreground block text-lg sm:text-xl md:text-2xl mt-1">{personalInfo.subtitle}</span>
           </motion.h2>
 
           {/* Summary */}
