@@ -3,7 +3,7 @@ import { Code2, Database, Globe, Shield, Lightbulb } from "lucide-react";
 export const personalInfo = {
   name: "Ashish Kumar Sah",
   title: "Computer Engineer",
-  subtitle: "Web Developer & Problem Solver",
+  subtitle: "Cybersecurity Enthusiast & Web Developer",
   summary: "Passionate Computer Engineering graduate with a strong foundation in software development, web technologies, and problem-solving. Eager to contribute to innovative projects and grow as a full-stack developer.",
   email: "ashsah.cs.eng@gmail.com",
   github: "https://github.com/TheAshish07",
