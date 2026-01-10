@@ -53,17 +53,17 @@ export const skills = [
 export const education = [
   {
     id: 1,
-    degree: "Bachelor of Technology in Computer Engineering",
-    institution: "RK University, Rajkot, Gujarat, India",
-    duration: "2021 - 2025",
-    description: "Specializing in software development, cybersecurity, and web technologies. CGPA: 8.33/10",
+    degree: "Bachelor of Engineering in Computer Engineering",
+    institution: "University of Technology",
+    duration: "2020 - 2024",
+    description: "Specialized in software development and computer networks. Completed capstone project on real-time collaboration tools. GPA: 3.8/4.0",
   },
   {
     id: 2,
     degree: "Higher Secondary Education",
-    institution: "Jan Jyoti High School, Chandrapur, Rautahat, Nepal",
+    institution: "Springfield Science Academy",
     duration: "2018 - 2020",
-    description: "Science stream with focus on Mathematics, Physics, and Computer Science. GPA: 3.45/4.0",
+    description: "Science stream with focus on Mathematics, Physics, and Computer Science. Scored 95% in board examinations.",
   },
 ];
 
