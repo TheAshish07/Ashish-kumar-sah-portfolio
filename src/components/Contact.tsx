@@ -92,15 +92,20 @@ const Contact = () => {
                 </div>
               </a>
 
-              <div className="flex items-center gap-4 p-4 rounded-lg bg-card border border-border">
-                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center">
+              <a
+                href="https://maps.app.goo.gl/xzEnGqfM7GWBFAyk6"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-4 p-4 rounded-lg bg-card border border-border hover:border-accent/50 transition-colors group"
+              >
+                <div className="w-12 h-12 rounded-lg bg-accent/10 flex items-center justify-center group-hover:bg-accent/20 transition-colors">
                   <MapPin className="w-5 h-5 text-accent" />
                 </div>
                 <div>
                   <p className="text-sm text-muted-foreground">Location</p>
-                  <p className="font-medium text-foreground">Available for Remote Work</p>
+                  <p className="font-medium text-foreground">Chandrapur, Rautahat, Nepal</p>
                 </div>
-              </div>
+              </a>
             </div>
 
             <div className="flex gap-4">
