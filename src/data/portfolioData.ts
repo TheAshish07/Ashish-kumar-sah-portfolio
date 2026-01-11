@@ -70,6 +70,14 @@ export const education = [
 export const projects = [
   {
     id: 1,
+    title: "Web Application Security Scanner",
+    description: "Developed backend API with Python/Flask and frontend dashboard with HTML/CSS/JS. Implemented security scanning algorithms for XSS, SQLi, CSRF detection with real-time vulnerability assessment.",
+    technologies: ["Python", "Flask", "HTML5", "CSS3", "JavaScript", "BeautifulSoup4"],
+    githubLink: "https://github.com/TheAshish07/Web-based-Vulnerability-Scanner.git",
+    liveLink: null,
+  },
+  {
+    id: 2,
     title: "SOC Monitoring - Incident Response System",
     description: "Developed a basic system to monitor security events, detect incidents, and log alerts to support incident response workflows.",
     technologies: ["Security", "Monitoring", "Incident Response"],
