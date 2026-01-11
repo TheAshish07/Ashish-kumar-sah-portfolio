@@ -99,7 +99,7 @@ const Projects = () => {
         >
           <Button variant="outline" size="lg" asChild>
             <a
-              href="https://github.com/alexjohnson"
+              href="https://github.com/TheAshish07?tab=repositories"
               target="_blank"
               rel="noopener noreferrer"
             >
