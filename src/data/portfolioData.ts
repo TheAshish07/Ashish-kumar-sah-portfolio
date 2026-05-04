@@ -3,7 +3,7 @@ import { Shield, Terminal, Globe, Code2, Lightbulb, Users } from "lucide-react";
 export const personalInfo = {
   name: "Ashish Kumar Sah",
   title: "Computer Engineer",
-  subtitle: "Cybersecurity Enthusiast & Web Developer",
+  subtitle: "Passionate Web Developer & Cybersecurity Enthusiast",
   summary: "Final year Computer Engineering student with a passion for cybersecurity and web development. Eager to apply my skills in building secure, responsive web applications while exploring vulnerabilities and ethical hacking. Looking for opportunities to kickstart my career as a fresher in the tech industry.",
   email: "ashsah.cs.eng@gmail.com",
   github: "https://github.com/TheAshish07",
