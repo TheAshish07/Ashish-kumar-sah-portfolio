@@ -1,11 +1,15 @@
-import { Shield, Terminal, Globe, Code2, Lightbulb, Users } from "lucide-react";
+import { Shield, Terminal, Globe, Code2, Lightbulb, Users, Smartphone, Database } from "lucide-react";
 
 export const personalInfo = {
   name: "Ashish Kumar Sah",
   title: "Computer Engineer",
-  subtitle: "Passionate Web Developer & Cybersecurity Enthusiast",
-  summary: "Final year Computer Engineering student with a passion for cybersecurity and web development. Eager to apply my skills in building secure, responsive web applications while exploring vulnerabilities and ethical hacking. Looking for opportunities to kickstart my career as a fresher in the tech industry.",
+  subtitle: "Full Stack Developer & Cybersecurity Enthusiast",
+  summary:
+    "Motivated Computer Engineering student and aspiring Software Developer with a strong foundation in Full Stack Development and Cybersecurity. Experienced in building scalable CRUD applications using React.js, Node.js, and PostgreSQL. Proven track record in identifying system vulnerabilities through a 7-month cybersecurity internship. Seeking to leverage technical expertise in Cloud Computing and VAPT to contribute to a dynamic engineering team.",
   email: "ashsah.cs.eng@gmail.com",
+  phone: "+91 95258 25041",
+  location: "Rajkot, Gujarat, India",
+  website: "https://sahashish.com.np",
   github: "https://github.com/TheAshish07",
   linkedin: "https://www.linkedin.com/in/ashish-sah-413b82265/",
   resumeLink: "/resume.pdf",
@@ -14,90 +18,130 @@ export const personalInfo = {
 export const skills = [
   {
     id: 1,
-    name: "Cybersecurity",
-    icon: Shield,
-    description: "Understanding security fundamentals, ethical hacking, vulnerability assessment, and secure coding practices.",
+    name: "Full Stack Development",
+    icon: Globe,
+    description:
+      "Building scalable CRUD applications with React.js, Node.js, Express.js, MongoDB, and REST APIs.",
   },
   {
     id: 2,
-    name: "Linux",
-    icon: Terminal,
-    description: "Proficient in Linux command line, shell scripting, system administration, and server management.",
+    name: "Cybersecurity & VAPT",
+    icon: Shield,
+    description:
+      "Hands-on with OWASP Top 10, Vulnerability Assessment & Penetration Testing, Ethical Hacking, and Web App Security.",
   },
   {
     id: 3,
-    name: "Web Development",
-    icon: Globe,
-    description: "Building responsive, accessible websites using HTML, CSS, JavaScript, React, and modern frameworks.",
+    name: "Languages",
+    icon: Code2,
+    description:
+      "Proficient in JavaScript (ES6+), Java, Python, Dart, and SQL (PostgreSQL, MySQL).",
   },
   {
     id: 4,
-    name: "Python",
-    icon: Code2,
-    description: "Developing scripts, automation tools, and applications using Python for various use cases.",
+    name: "Mobile & Cloud",
+    icon: Smartphone,
+    description:
+      "Cross-platform mobile development with Flutter & Dart, and basic Cloud Computing concepts.",
   },
   {
     id: 5,
-    name: "Problem Solving",
-    icon: Lightbulb,
-    description: "Strong analytical skills with experience in data structures, algorithms, and logical thinking.",
+    name: "Linux & Tools",
+    icon: Terminal,
+    description:
+      "Comfortable with Kali Linux, Linux CLI, Git, GitHub, and VS Code for daily development workflows.",
   },
   {
     id: 6,
-    name: "Team Management",
+    name: "Databases",
+    icon: Database,
+    description:
+      "Designing schemas and optimizing queries in PostgreSQL, MySQL, and MongoDB for real-world apps.",
+  },
+  {
+    id: 7,
+    name: "Problem Solving",
+    icon: Lightbulb,
+    description:
+      "Strong analytical thinking with experience in data structures, algorithms, and debugging complex systems.",
+  },
+  {
+    id: 8,
+    name: "Team Leadership",
     icon: Users,
-    description: "Effective collaboration, leadership, communication, and coordinating team efforts to achieve goals.",
+    description:
+      "Team leadership, strategic planning, and clear technical communication across cross-functional teams.",
+  },
+];
+
+export const experience = [
+  {
+    id: 1,
+    role: "Cybersecurity & Ethical Hacking Intern",
+    company: "SkillPhantom Technologies",
+    location: "Remote",
+    duration: "Nov 2025 – May 2026",
+    points: [
+      "Gained hands-on experience in Linux security and web application security, focusing on the OWASP Top 10 vulnerabilities.",
+      "Conducted Vulnerability Assessment and Penetration Testing (VAPT) through mentor-led training and practical projects.",
+      "Documented security flaws and suggested remediation steps to improve overall system integrity.",
+      "Developed defensive strategies and enhanced understanding of network security in a professional environment.",
+    ],
   },
 ];
 
 export const education = [
   {
     id: 1,
-    degree: "Bachelor of Technology in Computer Engineering",
-    institution: "RK University, Rajkot, Gujarat, India",
-    duration: "2022 - 2026 (Ongoing)",
-    description: "Currently pursuing B.Tech in Computer Engineering with focus on cybersecurity and web development. CGPA: 8.33/10",
+    degree: "Bachelor of Engineering in Computer Engineering",
+    institution: "RK University, Rajkot, Gujarat",
+    duration: "2022 - 2026",
+    description: "Pursuing B.E. in Computer Engineering with focus on Full Stack Development and Cybersecurity. CGPA: 8.41/10.0",
   },
   {
     id: 2,
     degree: "Higher Secondary Education",
     institution: "Jan Jyoti High School, Chandrapur, Rautahat, Nepal",
     duration: "2019 - 2021",
-    description: "Completed higher secondary education with focus on Science stream. GPA: 3.45/4.0",
+    description: "Completed higher secondary education in the Science stream. GPA: 3.45/4.0",
   },
 ];
 
 export const projects = [
   {
     id: 1,
-    title: "Web Application Security Scanner",
-    description: "Developed backend API with Python/Flask and frontend dashboard with HTML/CSS/JS. Implemented security scanning algorithms for XSS, SQLi, CSRF detection with real-time vulnerability assessment.",
-    technologies: ["Python", "Flask", "HTML5", "CSS3", "JavaScript", "BeautifulSoup4"],
+    title: "LMS (Learning Management System)",
+    description:
+      "Engineered a comprehensive MERN-stack platform for course management and student tracking. Implemented a flexible NoSQL schema in MongoDB and an intuitive instructor dashboard for uploading materials and monitoring student performance.",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB"],
+    githubLink: "https://github.com/TheAshish07?tab=repositories",
+    liveLink: null,
+  },
+  {
+    id: 2,
+    title: "Web-based Vulnerability Scanner",
+    description:
+      "Developed a tool to automate detection of security issues like SQL Injection and XSS using a Python backend. Utilized Batch scripting for automated environment configuration and efficient scanning execution.",
+    technologies: ["Python", "Flask", "HTML5", "CSS3", "Batch Scripting"],
     githubLink: "https://github.com/TheAshish07/Web-based-Vulnerability-Scanner.git",
     liveLink: null,
   },
   {
-    id: 2,
-    title: "SOC Monitoring - Incident Response System",
-    description: "Developed a basic system to monitor security events, detect incidents, and log alerts to support incident response workflows.",
-    technologies: ["Security", "Monitoring", "Incident Response"],
-    githubLink: "https://github.com/TheAshish07/SOC-Monitoring---Incident-Response-System.git",
-    liveLink: null,
-  },
-  {
-    id: 2,
+    id: 3,
     title: "Hostel Management System",
-    description: "Designed and implemented a Hostel Management System to automate hostel operations such as student management and room assignments.",
-    technologies: ["Java", "CSS", "JavaScript", "MySQL"],
+    description:
+      "Built a full-stack CRUD application to automate room allocations and records for over 500 residents. Improved user engagement by 25% through a responsive UI and optimized PostgreSQL database queries.",
+    technologies: ["React.js", "Node.js", "PostgreSQL"],
     githubLink: "https://github.com/TheAshish07/Hostel-Management-System.git",
     liveLink: null,
   },
   {
-    id: 3,
-    title: "Study Abroad Website",
-    description: "Designed and implemented a Study Abroad platform to help students explore overseas universities and connect with institutions.",
-    technologies: ["PHP", "CSS", "JavaScript", "MySQL"],
-    githubLink: "https://github.com/TheAshish07/RAD-project.git",
+    id: 4,
+    title: "SOC Monitoring - Incident Response System",
+    description:
+      "Developed a basic system to monitor security events, detect incidents, and log alerts to support incident response workflows.",
+    technologies: ["Security", "Monitoring", "Incident Response"],
+    githubLink: "https://github.com/TheAshish07/SOC-Monitoring---Incident-Response-System.git",
     liveLink: null,
   },
 ];
@@ -105,35 +149,39 @@ export const projects = [
 export const certifications = [
   {
     id: 1,
-    title: "Ethical Hacking Program",
-    organization: "Cyber Protectors",
+    title: "Practical Cyber Security for Cyber Security Practitioners (Score: 95%)",
+    organization: "NPTEL",
     year: "2025",
-    credentialLink: "https://www.linkedin.com/posts/ashish-sah-413b82265_ethical-hacking-certificate-activity-7406693557803294720-cw2F/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
+    credentialLink:
+      "https://www.linkedin.com/posts/ashish-sah-413b82265_cybersecurity-activity-7398633283707805697-Bsuq/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
   },
   {
     id: 2,
-    title: "Practical Cyber Security for Cyber Security Practitioners (95%)",
-    organization: "NPTEL",
+    title: "Ethical Hacking Program",
+    organization: "Cyber Protectors",
     year: "2025",
-    credentialLink: "https://www.linkedin.com/posts/ashish-sah-413b82265_cybersecurity-activity-7398633283707805697-Bsuq/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
+    credentialLink:
+      "https://www.linkedin.com/posts/ashish-sah-413b82265_ethical-hacking-certificate-activity-7406693557803294720-cw2F/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
   },
   {
     id: 3,
-    title: "Participation in Smart Minds Marathon",
-    organization: "Smart India Hackathon 2024",
-    year: "2024",
-    credentialLink: "https://www.linkedin.com/posts/ashish-sah-413b82265_hackathon-sih2024-smartindiahackathon2024-activity-7243155322196905984-KW1b/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
-  },
-  {
-    id: 4,
     title: "Workshop on Bug Bounty and Cyber Crime Investigation",
     organization: "Indian Cyber Club Technologies",
     year: "2024",
-    credentialLink: "https://www.linkedin.com/posts/ashish-sah-413b82265_cybersecurity-bugbounty-ethicalhacking-activity-7292162247429091328-UaMw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
+    credentialLink:
+      "https://www.linkedin.com/posts/ashish-sah-413b82265_cybersecurity-bugbounty-ethicalhacking-activity-7292162247429091328-UaMw/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
+  },
+  {
+    id: 4,
+    title: "Participation in Smart Minds Marathon",
+    organization: "Smart India Hackathon 2024",
+    year: "2024",
+    credentialLink:
+      "https://www.linkedin.com/posts/ashish-sah-413b82265_hackathon-sih2024-smartindiahackathon2024-activity-7243155322196905984-KW1b/?utm_source=share&utm_medium=member_desktop&rcm=ACoAAEEiq88BoGTLWHpgQTzpQyxF3IlJXkkbpl4",
   },
   {
     id: 5,
-    title: "Diploma in Computer Application",
+    title: "Diploma in Computer Application (DCA)",
     organization: "ITech Univ",
     year: "2020",
     credentialLink: null,
