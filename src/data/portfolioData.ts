@@ -12,6 +12,7 @@ export const personalInfo = {
   website: "https://sahashish.com.np",
   github: "https://github.com/TheAshish07",
   linkedin: "https://www.linkedin.com/in/ashish-sah-413b82265/",
+  linktree: "https://linktr.ee/theAshish07",
   resumeLink: "/resume.pdf",
 };
 

@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import { ArrowDown, Download, FolderOpen, Github, Linkedin, Mail } from "lucide-react";
+import LinktreeIcon from "@/components/icons/LinktreeIcon";
 import { personalInfo } from "@/data/portfolioData";
 import { Button } from "@/components/ui/button";
 
@@ -125,6 +126,15 @@ const Hero = () => {
               aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href={personalInfo.linktree}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="p-3 rounded-full bg-secondary hover:bg-secondary/80 hover:text-accent transition-all"
+              aria-label="Linktree"
+            >
+              <LinktreeIcon className="w-5 h-5" />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}

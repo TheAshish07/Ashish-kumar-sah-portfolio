@@ -1,4 +1,5 @@
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
+import LinktreeIcon from "@/components/icons/LinktreeIcon";
 import { personalInfo } from "@/data/portfolioData";
 
 const Footer = () => {
@@ -34,6 +35,15 @@ const Footer = () => {
               aria-label="LinkedIn"
             >
               <Linkedin className="w-5 h-5" />
+            </a>
+            <a
+              href={personalInfo.linktree}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-muted-foreground hover:text-accent transition-colors"
+              aria-label="Linktree"
+            >
+              <LinktreeIcon className="w-5 h-5" />
             </a>
             <a
               href={`mailto:${personalInfo.email}`}
